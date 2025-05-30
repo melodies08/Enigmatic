@@ -5,7 +5,7 @@ import random
 st.set_page_config(page_title="🔐 Enigmatic", page_icon="🔐")
 
 st.title("🔐 Enigmatic")
-st.markdown("""## Welcome to ultimate Password Hub! 🔑 
+st.markdown("""## Welcome to Enigmatic! 🔑 
 Use this tool to generate strong passwords, check password strength, and verify against common passwords database.""")
 
 # Create tabs for different functions
