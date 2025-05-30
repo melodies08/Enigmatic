@@ -1,6 +1,6 @@
-# 🔐 PassHub
+# 🔐 Enigmatic
 
-Welcome to **PassHub** - Your ultimate password security companion! This Streamlit-powered web application helps you generate strong passwords, analyze password strength, and check against common password databases.
+Welcome to **Enigmatic** - Your ultimate password security companion! This Streamlit-powered web application helps you generate strong passwords, analyze password strength, and check against common password databases.
 
 ## ✨ Features
 
@@ -26,8 +26,8 @@ Welcome to **PassHub** - Your ultimate password security companion! This Streaml
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/melodies08/passhub.git
-   cd passhub
+   git clone https://github.com/melodies08/enigmatic.git
+   cd enigmatic
    ```
 
 2. **Install dependencies**
@@ -37,13 +37,8 @@ Welcome to **PassHub** - Your ultimate password security companion! This Streaml
 
 3. **Run the application**
    ```bash
-   streamlit run PassHub.py
+   streamlit run Enigmatic.py
    ```
-
-4. **Access the app**
-   
-   Open your browser and navigate to `https://passhub.onrender.com/`
-
 
 ## 🛡️ Security Features
 
