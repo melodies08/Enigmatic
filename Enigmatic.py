@@ -2,9 +2,9 @@ import streamlit as st
 import re
 import random
 
-st.set_page_config(page_title="🔐 PassHub", page_icon="🔐")
+st.set_page_config(page_title="🔐 Enigmatic", page_icon="🔐")
 
-st.title("🔐 PassHub")
+st.title("🔐 Enigmatic")
 st.markdown("""## Welcome to ultimate Password Hub! 🔑 
 Use this tool to generate strong passwords, check password strength, and verify against common passwords database.""")
 
