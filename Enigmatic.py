@@ -5,7 +5,7 @@ import random
 st.set_page_config(page_title="🔐 Enigmatic", page_icon="🔐")
 
 st.title("🔐 Enigmatic")
-st.markdown("""## Welcome to ultimate Password Hub! 🔑 
+st.markdown("""## Welcome to Enigmatic! 🔑 
 Use this tool to generate strong passwords, check password strength, and verify against common passwords database.""")
 
 # Create tabs for different functions
@@ -56,7 +56,7 @@ with tab1:
         if re.search(r'[({!?/\|:;@#$%^&*<>.})]', user_password):
             strength += 1
         else:
-            feedback.append("❌ Your password must contain at least one Special character({!?/\|:;@#$%^&*<>.})!")
+            feedback.append("❌ Your password must contain at least one Special character({!?:;@#$%^&*<>.})")
 
         if strength == 4:
             feedback.append("✅ Your password is Strong!🎉")
@@ -79,7 +79,7 @@ with tab2:
     char_set1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     char_set2 = "abcdefghijklmnopqrstuvwxyz"
     char_set3 = "0123456789"
-    char_set4 = "{!?:;@#$%^&*<>.})"  # Fixed: renamed from char_set3 to char_set4
+    char_set4 = "{!?:;@#$%^&*<>.})!"  # Fixed: renamed from char_set3 to char_set4
 
     col1, col2 = st.columns(2)
 
@@ -147,7 +147,7 @@ with tab2:
         if re.search(r'[({!?:;@#$%^&*<>.})]', generated_password):
             strength += 1
         else:
-            feedback.append("❌ Your password must contain at least one Special character({!?:;@#$%^&*<>.})")
+            feedback.append("❌ Your password must contain at least one Special character({!?:;@#$%^&*<>.})!")
 
         if strength == 4:
             feedback.append("✅ Your password is Strong!🎉")
