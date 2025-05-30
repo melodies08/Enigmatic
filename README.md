@@ -35,18 +35,12 @@ Welcome to **PassHub** - Your ultimate password security companion! This Streaml
    pip install streamlit
    ```
 
-3. **Create the common passwords database**
-   
-   Create a file named `common_passwords.txt` in the project directory and populate it with common passwords (one per line). You can download popular password lists from sources like:
-   - [SecLists](https://github.com/danielmiessler/SecLists)
-   - [OWASP](https://owasp.org/www-community/password-special-characters)
-
-4. **Run the application**
+3. **Run the application**
    ```bash
    streamlit run PassHub.py
    ```
 
-5. **Access the app**
+4. **Access the app**
    
    Open your browser and navigate to `https://passhub.onrender.com/`
 
