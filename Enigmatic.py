@@ -2,7 +2,7 @@ import streamlit as st
 import re
 import random
 
-st.set_page_config(page_title="🔐 Enigmatic", page_icon="🔐")
+st.set_page_config(page_title="Enigmatic", page_icon="🔐")
 
 st.title("🔐 Enigmatic")
 st.markdown("""## Welcome to Enigmatic! 🔑 
